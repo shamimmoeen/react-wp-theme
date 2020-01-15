@@ -1,0 +1,25 @@
+{
+  "name": "react-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "start": "webpack-dev-server",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  },
+  "keywords": [],
+  "author": "Mainul Hassan Main <shamim.moeen@gmail.com> (https://mainulhassan.info)",
+  "license": "MIT",
+  "devDependencies": {
+    "@wordpress/scripts": "^6.2.0",
+    "webpack": "^4.41.5",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
